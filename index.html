@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel="shortcut icon" href="images/Logo.png" type="image/x-icon">
+    <script src="js/script.js" defer></script>
+    <title>Portfolio</title>
+</head>
+<body>
+    <section id="home">
+        <header class="page-header">
+            <div class="top-nav" id="topNav">
+                <div class="wrapper">
+                    <nav id="navBar">
+                        <a href="#" class="logo"><img src="images/Logo.png" alt=""></a>
+                        <button class="mobile-toggle-open" aria-controls="navigation" id="mobileToggleOpen" aria-expanded="false"><i class="fa fa-bars"></i></button>
+                        <button class="mobile-toggle-close" aria-controls="navigation" id="mobileToggleClose" aria-expanded="false"><i class="fa fa-times"></i></button>
+                        <ul class="site-nav" id="siteNav" data-visible="false">
+                            <li><a href="#home" data-scroll="home" class="site-nav-links active">Home</a></li>
+                            <li><a href="#about" data-scroll="about" class="site-nav-links">About Me</a></li>
+                            <li><a href="#services" data-scroll="services" class="site-nav-links">Services</a></li>
+                            <li><a href="#portfolio" data-scroll="portfolio" class="site-nav-links">Portfolio</a></li>
+                            <li><a href="#contact" data-scroll="contact" class="site-nav-links">Contact</a></li>
+                            <li class="download" id="navDownloadButton"><a href="https://drive.google.com/file/d/1ELqpmpK72xP5qtregw_4PfjsIe3DLbGs/view?usp=share_link" class="download-link">Download CV <span><i class="fa fa-file-pdf"></i></span></a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+           
+            <div class="greetings wrapper">
+               <h2 class="intro">I'm</h2>
+               <h1 class="name">Richard Nartey</h1>
+               <p>
+                    I have extensive experience of over 4 years in my profession as a
+               </p>
+               <h2 class="job">Web Designer & Developer</h2>
+               
+               <a href="https://drive.google.com/file/d/1ELqpmpK72xP5qtregw_4PfjsIe3DLbGs/view?usp=share_link" class="download-link mt-1">Download CV <span><i class="fa fa-file-pdf"></i></span></a>
+             
+            </div>
+        </header>
+    </section>
+      
+    
+
+    <main>
+         <!-- -----------------------BACK TO UP------------------ -->
+         <a href="#home" class="back-to-top" id="backToTop" top="Back to top"><i class="fa fa-chevron-circle-up"></i></a>
+
+        <!-- -----------------------ABOUT ME------------------ -->
+        <section class="about-container" id="about">
+          <div class="wrapper">
+            <div class="about-me">
+                <img src="images/about-img.jpg" alt="" class="about-img">
+                <div class="about-text">
+                    <h1 class="main-heading">About me</h1>
+                    <p>
+                       I am a computer programmer who tends to have passion and love for my profession as a website designer and developer. I design custom websites of all kinds for customers who request one, both on leisure and work times. I hold a bachelor's degree of Applied Technology from <a href="https://www.byui.edu/" class="links" target="_blank">Brigham Young University (BYU), Idaho</a>. Currently, work as a full-time web designer and developer for <a href="https://www.gracecoms.com" class="links" target="_blank">Gracecoms Institute of Technology (GIT)</a>. I also train people who have desire of becoming elite website developers, no matter the background of persons. If you're interested just contact me and let's on move on.
+                    </p>
+                    <div class="about-more-container">
+                        <nav>
+                            <ul>
+                                <li><button class="about-button active-button" onclick="opentab('education')"><span><i class="fa fa-graduation-cap"></i></span>Education</button></li>
+                                <li><button class="about-button" onclick="opentab('skills')"><span><i class="fa fa-wrench"></i></span>Skills</button></li>
+                                <li><button class="about-button" onclick="opentab('experience')"><span><i class="fa fa-anchor"></i></span>Experience</button></li>
+                            </ul>
+                        </nav>
+                        <ul class="more-description">
+                            <li class="active-more list" id="education">
+                                <ul>
+                                    <li>
+                                        <div class="icon">
+                                            <i class="fa fa-award"></i>
+                                        </div>
+                                        <div class="school">
+                                            <p class="title">2020</p>
+                                            <p>Bachelor of Science - Applied Technology at <a href="" class="links" target="_blank">Brigham Young University</a></p>
+                                        </div>
+                                    </li>
+                                   <li>
+                                        <div class="icon">
+                                            <i class="fa fa-certificate"></i>
+                                        </div>
+                                        <div class="school">
+                                            <p class="title">2019</p>
+                                            <p>Microsoft Office Training at <a href="#" class="links">Earn & Excel</a></p>
+                                        </div>
+                                   </li>
+                                   <li>
+                                    <div class="icon">
+                                        <i class="fa fa-certificate"></i>
+                                    </div>
+                                    <div class="school">
+                                        <p class="title">2019</p>
+                                        <p>Fullstack Development Training at <a href="#" class="links">Earn & Excel</a></p>
+                                    </div>
+                                 </li>
+                                 <li>
+                                    <div class="icon">
+                                        <i class="fa fa-certificate"></i>
+                                    </div>
+                                    <div class="school">
+                                        <p class="title">2018</p>
+                                        <p>English Speaking & Writing Skills at <a href="" class="links" target="_blank">PathwayConnect Worldwide</a></p>
+                                    </div>
+                               </li>
+                            </ul>
+                            </li>
+                            <li class="list" id="skills">
+                                <ul>
+                                    <li>
+                                        <div class="icon">
+                                            <i class="fa fa-wrench"></i>
+                                        </div>
+                                        <div class="school">
+                                            <p class="title">UI/UX Design</p>
+                                            <p>Designing Web/App Interfaces</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="icon">
+                                            <i class="fa fa-wrench"></i>
+                                        </div>
+                                        <div class="school">
+                                            <p class="title">Web Development</p>
+                                            <p>Web app Development</p>
+                                        </div>
+                                   </li>
+                                   <li>
+                                        <div class="icon">
+                                            <i class="fa fa-wrench"></i>
+                                        </div>
+                                        <div class="school">
+                                            <p class="title">Database</p>
+                                            <p>Developing Relational Database Systems</p>
+                                        </div>
+                                   </li>
+                                   <li>
+                                    <div class="icon">
+                                        <i class="fa fa-wrench"></i>
+                                    </div>
+                                    <div class="school">
+                                        <p class="title">Microsoft Excel & Word</p>
+                                        <p>Creating templates for businesses</p>
+                                    </div>
+                                 </li>
+                                </ul>
+                            </li>
+                            <li class="list" id="experience">
+                                <ul>
+                                    <li>
+                                        <div class="icon">
+                                            <i class="fa fa-anchor"></i>
+                                        </div>
+                                        <div class="school">
+                                            <p class="title">2019 - Present</p>
+                                            <p>UI/UX Designer at <a href="https://www.gracecoms.com" class="links" target="_blank">Gracecoms Institute of Technology (GIT)</a></p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="icon">
+                                            <i class="fa fa-anchor"></i>
+                                        </div>
+                                        <div class="school">
+                                            <p class="title">2019 - Present</p>
+                                            <p>Web app Developer at <a href="https://www.gracecoms.com" class="links" target="_blank">Gracecoms Institute of Technology (GIT)</a></p>
+                                        </div>
+                                   </li>
+                                   <li>
+                                        <div class="icon">
+                                            <i class="fa fa-anchor"></i>
+                                        </div>
+                                        <div class="school">
+                                            <p class="title">2019 - Present</p>
+                                            <p>Team lead for RDBMS</p>
+                                        </div>
+                                   </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="media-icons mt-1">
+                        <a href="https://web.facebook.com/loungecommunities" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.youtube.com/channel/UCmnIuN6apCe1UhpaAGoUq7g" target="_blank"><i class="fab fa-youtube"></i></a>
+                        <a href="https://github.com/richardnartey" target="_blank"><i class="fab fa-github-alt"></i></a>
+                        <a href="https://wa.me/message/DFJGXKR4J2JNL1" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </section>
+
+
+        <!-- ----------------------------MY SERVICES------------------- -->
+        <section id="services">
+            <div class="wrapper">
+                <h1 class="main-heading ml-2">My Services</h1>
+                <ul class="service-lists">
+                    <li>
+                        <input type="checkbox" id="first">
+                        <label for="first">
+                            <h4>Web Design & Development <span><i class="fa fa-laptop-code"></i></span></h4>
+                            <span><i class="fa fa-plus"></i></span>
+                        </label>
+                        <div class="service-description">
+                            <p>
+                            Our web development package, we (my team and I) develop and host all kinds of professional websites such as e-commerce, portals, landing pages, portfolios, customized webs, and many more. Our web development comes with affordable prices, maintainability, and less time delivery. Apart from designing websites for customers, we also make easy tutorials on concepts of web development on our channels to train both beginners and advanced.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="second">
+                        <label for="second">
+                            <h4>Database Engineering<span><i class="fa fa-database"></i></span></h4>
+                            <span><i class="fa fa-plus"></i></span>
+                        </label>
+                        <div class="service-description">
+                            <p>
+                                For a complete database systems which is well normalized, and carefully structured to keep records of every single activity in a firm or daily schedules, please reach out to us. You can also subscribe to our channels for free tutorials on Database Management System(DBMS) like MySQL, Microsoft SQL, NoSQL, MongoDB, Postgre and more.
+                            </p>
+                        </div>  
+                    </li>
+                    <li>
+                        <input type="checkbox" id="third">
+                        <label for="third">
+                            <h4>Mobile Apps <span><i class="fa fa-mobile"></i></span></h4>
+                            <span><i class="fa fa-plus"></i></span>
+                        </label>
+                        <div class="service-description">
+                            <p>
+                                Do you want an app to manage your business or individual affairs? Become our valued customer for a reliable and customized mobile apps that help ease task for everyday.
+                            </p>
+                        </div> 
+                    </li>
+                    <li>
+                        <input type="checkbox" id="forth">
+                        <label for="forth">
+                            <h4>Microsoft Excel Temple Design <span><i class="fab fa-microsoft"></i></span></h4>
+                            <span><i class="fa fa-plus"></i></span>
+                        </label>
+                        <div class="service-description">
+                            <p>
+                            We deliver customized Microsoft Excel template for managing administrative works, keeping records, drawing budgets, etc. 
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        
+         <!-- ----------------------------MY WORK------------------- -->
+        <section id="portfolio">
+            <div class="wrapper">
+                <h1 class="main-heading ml-2">My Works</h1>
+                <ul class="works">
+                    <li>
+                        <a href="https://richardnartey.github.io/calculator" class="work-link" target="_blank"><i class="fa fa-calculator"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://richardnartey.github.io/temp-1" class="work-link" target="_blank"><i class="fa fa-laptop-code"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://richardnartey.github.io/music" class="work-link" target="_blank"><i class="fa fa-music"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://richardnartey.github.io/Gallery" class="work-link" target="_blank"><i class="fa fa-images"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+               
+              
+          
+        <!-- ----------------------------CONTACT ME------------------- -->
+        <section class="contact" id="contact">
+            <div class="wrapper">
+                <h1 class="main-heading ml-2">Contact me</h1>
+                <div class="contact-container">
+                    <div class="contact-text">
+                        <h2 class="minor-heading">Let's talk, I would like to hear from you.</h2>
+                        <p>
+                           Are you inspired to becoming a web designer and developer? Do you have that desire of creating professional and modern website? Would you like to work as a team, where your teammates are best at their fields web development and more? Or, you have questions and doubts about web development, so you would need a helping hand?
+                           Please, reach out to me and my team with all worries. Or you can also get in touch with us from any of our channels and media plaforms.
+                           Please subscribe to my channels for effective tutorials on web development, database, and everything about computer programming.
+                        </p>
+                        <a href="tel:+233204893679" class="telephone"><span><i class="fa fa-phone-square"></i></span> +233 204 893 679</a>
+                        <h4 class="follow">Follow me:</h4>
+                        <div class="media-icons">
+                            <a href="https://web.facebook.com/loungecommunities" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.youtube.com/channel/UCmnIuN6apCe1UhpaAGoUq7g" target="_blank"><i class="fab fa-youtube"></i></a>
+                            <a href="https://github.com/richardnartey" target="_blank"><i class="fab fa-github-alt"></i></a>
+                            <a href="https://wa.me/message/DFJGXKR4J2JNL1" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Name" required>
+                            <input type="email" name="Email" placeholder="Email" required>
+                            <textarea name="Message"  rows="10" placeholder="Type message here"></textarea>
+                            <button class="form-button">Send message</button>
+                        </form>
+                        <div class="contact-form-msg-notification" id="notif">Message was sent successfully</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="page-footer">
+        <p class="copy-right">&copy; 2023 - All Rights Reserved - Richard Nartey</p>
+    </footer>
+
+    <script src="fontawesome/js/all.js"></script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycby4EdHZ1ROe2XKf8mBxCoGZ1wU6ASK8SUKZwKWSc_e68WEy8XOQ2p6Z6uakKv5ollGd/exec';
+        const form = document.forms['submit-to-google-sheet'];
+        const notif = document.getElementById("notif");
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                notif.classList.add("notification-show");
+
+                setTimeout(function() {
+                    notif.classList.remove("notification-show");
+                }, 5000)
+                form.reset();
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
